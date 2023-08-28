@@ -1,8 +1,7 @@
-from versions import (
-    python_version,
-    requests_version,
-    pytest_version
-)
+from testing_env.versions import python_version, requests_version, pytest_version
+
+from versions import python_version, requests_version, pytest_version
+
 
 def test_python_version():
     version_info = python_version()
